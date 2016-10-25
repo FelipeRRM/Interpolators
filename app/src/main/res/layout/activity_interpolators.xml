@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_interpolators"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feliperrm.interpolators.InterpolatorsActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearParent"
+        >
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear (no interpolator):"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_linear"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerate:"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_accelerate"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decelerate:"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_decelerate"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AccelerateDecelerate:"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_accelerate_decelerate"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overshoot:"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_overshoot"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    <TextView
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce:"
+        />
+
+    <FrameLayout
+        android:id="@+id/ball_bounce"
+        android:layout_margin="@dimen/ball_margin"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:background="@drawable/ball"
+        android:elevation="@dimen/ball_elevation"
+        ></FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
